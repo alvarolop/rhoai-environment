@@ -1,0 +1,26 @@
+apiVersion: v2
+name: rhoai-environment-chart
+description: Deploy complete Red Hat OpenShift AI Data Science environments with workbenches, pipelines, and distributed workloads support
+
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+
+keywords:
+  - rhoai
+  - openshift-ai
+  - data-science
+  - machine-learning
+  - jupyter
+  - kubeflow
+  - pipelines
+  - gpu
+
+home: https://github.com/yourusername/rhoai-environment-chart
+
+sources:
+  - https://github.com/yourusername/rhoai-environment-chart
+
+maintainers:
+  - name: Alvaro Lopez Medina
+    email: your.email@example.com
