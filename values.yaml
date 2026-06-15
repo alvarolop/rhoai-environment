@@ -56,9 +56,9 @@ workbenches:
       # -- Resource requests
       requests:
         # -- CPU request
-        cpu: '1'
+        cpu: '100m'
         # -- Memory request
-        memory: 6Gi
+        memory: 512Mi
 
 # Example GPU-enabled workbench configuration:
 # workbenches:
