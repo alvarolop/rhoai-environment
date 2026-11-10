@@ -7,7 +7,7 @@ metadata:
   annotations:
     notebooks.opendatahub.io/inject-auth: "true"
     notebooks.opendatahub.io/last-image-selection: {{ .image | quote }}
-    notebooks.opendatahub.io/last-image-version-git-commit-selection: {{ .lastImageVersionGitCommit | default "8e73cac" }}
+    notebooks.opendatahub.io/last-image-version-git-commit-selection: {{ .lastImageVersionGitCommit | default "47efb6c" }}
     opendatahub.io/image-display-name: {{ .imageDisplayName | default "Jupyter | PyTorch | CUDA | Python 3.12" | quote }}
     opendatahub.io/connections: ""
     opendatahub.io/hardware-profile-name: {{ .hardwareProfile.name | quote }}

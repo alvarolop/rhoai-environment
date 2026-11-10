@@ -34,7 +34,7 @@ workbenches:
     # -- Display name shown in the RHOAI UI
     displayName: Notebook
     # -- Container image to use for the workbench (e.g., pytorch:2025.2, tensorflow:latest)
-    image: pytorch:2025.2
+    image: pytorch:3.5
     # -- Hardware profile configuration
     hardwareProfile:
       # -- Name of the hardware profile to use
